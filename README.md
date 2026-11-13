@@ -2,7 +2,7 @@
 
 Herramienta web de **Bibliotecas Areandina** que calcula el índice h a partir de un Excel con tus obras (artículos, libros, capítulos). No necesitas instalar nada ni usar una plantilla: arrastras el archivo y el informe aparece solo.
 
-**Úsala aquí:** https://rekol08.github.io/Generador-ndice-H/
+**Úsala aquí:** https://bibliotecas-areandina.github.io/Generador-ndice-H/
 
 > Tus datos **no salen de tu computador**: el archivo se procesa en tu navegador y no se envía a ningún servidor.
 
@@ -20,7 +20,7 @@ El informe incluye una explicación paso a paso con los datos de tu propio archi
 
 ## Cómo usarla (3 pasos)
 
-1. **Entra** a https://rekol08.github.io/Generador-ndice-H/
+1. **Entra** a https://bibliotecas-areandina.github.io/Generador-ndice-H/
 2. **Arrastra tu Excel** al recuadro grande (o haz clic en él para elegir el archivo). Puedes subir **varios archivos a la vez**: se combinan sin repetir obras.
 3. **Listo.** Se muestran al instante:
    - **Resultados rápidos:** índice h, índice g, i10, citas totales y número de obras citables.
@@ -115,7 +115,7 @@ js/app.js               Interfaz: carga de archivos, resultados, descargas
 ```
 
 ### Editar sin instalar nada
-1. Abre https://github.com/REKOL08/Generador-ndice-H y presiona la tecla **`.`** (abre el editor web), o usa el ícono del lápiz en cualquier archivo.
+1. Abre https://github.com/BIBLIOTECAS-AREANDINA/Generador-ndice-H y presiona la tecla **`.`** (abre el editor web), o usa el ícono del lápiz en cualquier archivo.
 2. Edita y guarda (*Commit*) en `main`. En 1–2 minutos la página se actualiza.
 3. Si cambias archivos de `js/`, sube también el número de versión `?v=...` de los `<script>` en `index.html` para que los navegadores no usen una copia vieja.
 
@@ -138,3 +138,14 @@ No hace falta tocar la lógica central.
 ---
 
 *Desarrollado para Bibliotecas Areandina.*
+
+
+## Centralización institucional — 13 de noviembre de 2026
+
+Repositorio transferido a [BIBLIOTECAS-AREANDINA](https://github.com/BIBLIOTECAS-AREANDINA), conservando su nombre y visibilidad pública. Las referencias Git anteriores se verificaron antes de actualizar esta documentación.
+
+HTML/JS; Excel/CSV, índice h/g/i10; SheetJS y Chart.js por CDN. Validación con datos ficticios pendiente.
+
+Dirección institucional de Pages: https://bibliotecas-areandina.github.io/Generador-ndice-H/ . La disponibilidad HTTP se registra en la bitácora de centralización; no equivale a una prueba funcional completa. Los enlaces antiguos de Pages y QR impresos requieren actualización.
+
+[Inventario y pendientes](https://github.com/BIBLIOTECAS-AREANDINA/BIBLIONOVA/blob/main/docs/CENTRALIZACION_2026-11-13.md). No se modificaron despliegues de Apps Script, n8n ni Koha de producción.
